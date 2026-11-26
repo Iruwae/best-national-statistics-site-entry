@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NusaData — Statistics of Indonesia</title>
+<meta name="description" content="Population, economy, jobs, poverty, health, education and regions of Indonesia — every figure with its source and year.">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/">Nusa<em>Data</em></a>
+    <span class="tagline">Statistics of Indonesia — every figure with its source and year</span>
+    <span class="updated">Updated 26 November 2026</span>
+  </div>
+  <nav class="mainnav" aria-label="Sections">
+    <a href="#/" data-route="">Overview</a>
+    <a href="#/population" data-route="population">Population</a>
+    <a href="#/economy" data-route="economy">Economy</a>
+    <a href="#/employment" data-route="employment">Employment</a>
+    <a href="#/poverty" data-route="poverty">Poverty</a>
+    <a href="#/health" data-route="health">Health</a>
+    <a href="#/education" data-route="education">Education</a>
+    <a href="#/regions" data-route="regions">Regions</a>
+  </nav>
+</header>
+<main id="view" aria-live="polite"></main>
+<noscript>
+  <main style="max-width:1080px;margin:0 auto;padding:28px 20px;">
+    <h1>Statistics of Indonesia</h1>
+    <p>This site needs JavaScript to draw its charts and tables. The headlines, from
+    Statistics Indonesia (BPS) and the World Bank, 2024: population 281.6 million;
+    GDP US$1.40 trillion; growth 5.03%; inflation 1.57%; unemployment 4.91% (Aug 2024);
+    poverty 8.57% (Sep 2024); life expectancy 74.15 years; HDI 75.02.</p>
+  </main>
+</noscript>
+<footer class="site">
+  <b>NusaData</b> — an independent statistics site about Indonesia. It is not affiliated with
+  Statistics Indonesia (BPS), the World Bank, Bank Indonesia or the Ministry of Health.
+  Figures are quoted from those bodies and cited next to each number; see the
+  <a href="#/sources">sources page</a> for the full list. Built as a static site: no tracking,
+  no network requests, all data on this page.
+</footer>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
