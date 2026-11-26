@@ -112,8 +112,8 @@ export function economyView(metric) {
       cut it to −2.07% in 2020 — the first contraction since 1998 — before a rebound to 5.31% in
       2022. Since then it has held just above 5%: 5.05% in 2023 and 5.03% in 2024. Inflation tells
       the other half of the story: 5.51% in 2022, then 2.61% in 2023 and 1.57% in 2024, inside Bank
-      Indonesia's 1.5–3.5% target band. GDP per capita reached US$4,960 in 2024 (BPS), up from
-      US$4,942 on the World Bank's series.</p>`
+      Indonesia's 1.5–3.5% target band. GDP per capita reached US$4,960 in 2024 (BPS); the World
+      Bank's series puts the same year at US$4,942.</p>`
     + citeLine('BPS, 2024; World Bank World Development Indicators, 2024; Bank Indonesia, 2024.');
 }
 
